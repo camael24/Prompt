@@ -8,7 +8,7 @@ Prérequis :
 	
 Utilisation :
 >	$ Prompt.exe
->	Path = php-cgi -b 127.0.0.1:9000, Name = Launchee, Signal = help  
+>	Path = php-cgi -b 127.0.0.1:9000, Name = PromptServices, Signal = help  
 >	Usage of Prompt:  
 >>		-p  <path>      PathProgram (Path to php-cgi , if php-cgi are already in the global path do nothing ;) )  
 >>		-n  <name>      NameService  
@@ -34,6 +34,7 @@ Silent
 ======
 
 Silent est un alias pleinement fonctionnel de Prompt même code source , mais avec un Build Target "GUI Application" de façon a être "invisible"
+
 
 
 
