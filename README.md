@@ -13,7 +13,7 @@ Utilisation :
 >>		-p  <path>      PathProgram (Path to php-cgi , if php-cgi are already in the global path do nothing ;) )  
 >>		-n  <name>      NameService  
 >>		-s  <signal>    Signal (install | uninstall | start | stop | restart)  
->>	-h              This Help  
+>>		-h              This Help  
 >>		-v              Version  
 		
 
