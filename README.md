@@ -10,11 +10,11 @@ Utilisation :
 >	$ Prompt.exe
 >	Path = php-cgi -b 127.0.0.1:9000, Name = Launchee, Signal = help  
 >	Usage of Prompt:  
->		-p  <path>      PathProgram (Path to php-cgi , if php-cgi are already in the global path do nothing ;) )  
->		-n  <name>      NameService  
->		-s  <signal>    Signal (install | uninstall | start | stop | restart)  
->		-h              This Help  
->		-v              Version  
+>>		-p  <path>      PathProgram (Path to php-cgi , if php-cgi are already in the global path do nothing ;) )  
+>>		-n  <name>      NameService  
+>>		-s  <signal>    Signal (install | uninstall | start | stop | restart)  
+>>	-h              This Help  
+>>		-v              Version  
 		
 
 Prompt a été crée à l'origine pour lancé php-cgi en temps que service , mais c'est adaptable pour n'importe quel executable a n'importe quel endroit ;).
