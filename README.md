@@ -8,8 +8,8 @@ Prérequis :
 	
 Utilisation :
 >	$ Prompt.exe
->	Path = php-cgi -b 127.0.0.1:9000, Name = PromptServices, Signal = help  
->	Usage of Prompt:  
+>>		Path = php-cgi -b 127.0.0.1:9000, Name = PromptServices, Signal = help  
+>>		Usage of Prompt:  
 >>		-p  <path>      PathProgram (Path to php-cgi , if php-cgi are already in the global path do nothing ;) )  
 >>		-n  <name>      NameService  
 >>		-s  <signal>    Signal (install | uninstall | start | stop | restart)  
@@ -18,7 +18,7 @@ Utilisation :
 		
 
 Prompt a été crée à l'origine pour lancé php-cgi en temps que service , mais c'est adaptable pour n'importe quel executable a n'importe quel endroit ;).
-	$ Prompt.exe -p /path/to/you/exe -n AnNameOfService -s start
+>>		$ Prompt.exe -p /path/to/you/exe -n AnNameOfService -s start
 
 Va crée et lancé le service AnNameOfService et lancé l'executable /path/to/your/exe
 
