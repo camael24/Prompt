@@ -26,8 +26,8 @@ Les Signaux
 -------
 * install : Installe le service
 * uninstall : Désinstalle le service (ou sc delete NameService)
-* start : [Install ou Initialize] et Démarre le servite
-* stop : [Install ou Initialize] et Stoppe le servite
+* start : [Install ou Initialize] et Démarre le service
+* stop : [Install ou Initialize] et Stoppe le service
 * restart : Stop && Start signal
 
 Silent
